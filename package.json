@@ -1,0 +1,30 @@
+{
+  "name": "express-api-w-front-builder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinhouguet/express-api-w-front-builder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinhouguet/express-api-w-front-builder/issues"
+  },
+  "homepage": "https://github.com/kevinhouguet/express-api-w-front-builder#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.31.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.4"
+  }
+}
