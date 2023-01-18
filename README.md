@@ -11,6 +11,7 @@
 - Express
 - Dotenv
 - Eslint
+- TDD avec [JEST](https://jestjs.io/fr/docs/getting-started)
 
 ### Côté client
 
