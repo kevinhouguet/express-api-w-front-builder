@@ -1,4 +1,8 @@
 [build]
   command = "# no build command"
   functions = "netlify/functions"
-  publish = "front"
+  publish = "public"
+
+[[redirects]]
+  from = "/api"
+  to = "/.netlify/functions/api"
