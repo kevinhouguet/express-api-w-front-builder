@@ -6,9 +6,9 @@ require('dotenv').config();
 
 const router = require('./routers');
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT ?? 3000;
 
-app.use(express.static('./front'));
+app.use(express.static('./front/dist'));
 
 app.use(router);
 
