@@ -10,9 +10,12 @@
 <body>
   <h1>Hello World !!</h1>
   <script type="text/javascript">
-    const httpResponse = await fetch('./functions/api');
-    const data = await httpResponse.json();
-    console.log(data);
+    async function getData(){
+      const httpResponse = await fetch('./functions/api');
+      const data = await httpResponse.json();
+      console.log(data);
+    }
+    getData();
   </script>
 </body>
 </html>
