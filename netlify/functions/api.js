@@ -1,5 +1,8 @@
 exports.handler = async function () {
   return {
-    message: 'test',
+    statusCode: 200,
+    body: {
+      message: 'test',
+    },
   };
 };
