@@ -11,7 +11,8 @@
   <h1>Hello World !!</h1>
   <script type="text/javascript">
     async function getData(){
-      const httpResponse = await fetch('/.netlify/functions/api');
+      // const httpResponse = await fetch('/.netlify/functions/api');
+      const httpResponse = await fetch('https://geo.api.gouv.fr/communes');
       const data = await httpResponse.json();
       console.log(data);
     }
